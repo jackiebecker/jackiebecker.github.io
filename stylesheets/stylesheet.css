@@ -459,7 +459,7 @@ th {
 }
 
 #wavybg-wrapper {
-  width: 105%; height: 840px;
+  width: 105%; height: 860px;
 }
 
 #navbar {
@@ -473,7 +473,7 @@ th {
   width: 90px;
   position: relative;
   left: 47%;
-  top: 10%;
+  margin-top: 8%;
   opacity: 0.15;
 }
 
@@ -586,6 +586,25 @@ p.below {
   padding-bottom: 60px;
   font-size: 24px;
   text-align: center;
+  color: #fff;
+}
+
+p.below-left {
+  font-family: 'Titillium Web', sans-serif;
+  padding-bottom: 60px;
+  margin-left: 15%;
+  font-size: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+b.be-bold {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  padding-bottom: 60px;
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: left;
   color: #fff;
 }
 
