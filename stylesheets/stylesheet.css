@@ -440,6 +440,43 @@ th {
 
 /* Style */
 
+/*  classes for navbar sizing adjustments  */
+/*.navbar {
+  /*padding: 7px 0px 7px 5px;*/
+  /*position: fixed;
+  height: 50px;
+  width: 100%;
+  background:rgba(0,0,0,0.5);
+}*/
+
+#navbar {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background:rgba(0,0,0,0.5);
+}
+
+p.nav-text-left {
+  font-family: 'Titillium Web', sans-serif;
+  position: absolute;
+  margin-top: 10px;
+  font-weight: 600px;
+  margin-left: 7%;
+  color: #0066FF;
+  font-size: 20px;
+}
+
+p.nav-text-right {
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: 77%;
+  margin-top: 10px;
+  position: absolute;
+  margin-right: 20px;
+  font-weight: 600px;
+  color: #0066FF;
+  font-size: 20px;
+}
+
 body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
@@ -464,7 +501,7 @@ h1.title  {
   font-weight: 900;
   color: white;
   text-transform: uppercase;
-  position: fixed;
+  position:absolute;
   top: 50%;
   left: 50%;
   font-size: 80px;
@@ -523,6 +560,7 @@ p.below {
 
 .current-section {
   position: fixed;
+  font-family: 'Titillium Web', sans-serif;
   top: 0;
   left: 50%;
   width: 693px;

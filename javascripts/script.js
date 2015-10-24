@@ -48,5 +48,11 @@ $(document).ready(function(){
     $(window).scrollTop(0);
     return false;
   })
+
+  $(window).resize(function() {
+    area = 65000;
+    newHeight = $(window).width();
+    $('#navbar').height(Math.ceil(area/newHeight));
+    });
 });
 })(jQuery)
