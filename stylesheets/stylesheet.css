@@ -459,7 +459,7 @@ th {
 }
 
 #wavybg-wrapper {
-  width: 2000px;
+  width: 140%;
   height: 860px;
 }
 
@@ -469,22 +469,21 @@ th {
   background:rgba(0,0,0,0.5);
 }
 
+#main-button {
+  position: absolute;
+  left: 47px;
+  top:35%;
+  margin-top: 30%;
+  opacity: 0.5;
+}
+
 .button {
   height: 90px;
   width: 90px;
   position: relative;
-  left: 47%;
+  left: 47px;
   margin-top: 8%;
   opacity: 0.15;
-}
-
-.main-button {
-  height: 90px;
-  width: 90px;
-  position: absolute;
-  left: 47%;
-  top: 85%;
-  opacity: 0.5;
 }
 
 .button:hover {

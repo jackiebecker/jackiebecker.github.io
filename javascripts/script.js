@@ -53,6 +53,7 @@ $(document).ready(function(){
     area = 65000;
     newHeight = $(window).width();
     $('#navbar').height(Math.ceil(area/newHeight));
+    $('#main-button').left(20);
     });
 
 });
