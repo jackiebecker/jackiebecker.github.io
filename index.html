@@ -12,6 +12,7 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
   <script src="javascripts/jquery-1.11.0.min.js"></script>
+  <script src="javascripts/scroll-slow.js"></script>
   <script src="javascripts/waterpipe.js"></script>
   <script src="javascripts/smokyBG.js"></script>
 
@@ -24,40 +25,81 @@
 
 <body>
 
-  <div id="wavybg-wrapper" style="width: 100%; height: 840px;">
-<!--
-    <nav class="navbar navbar-inverse navbar-fixed-top"> -->
-				<!-- navigation links -->
+  <div class="page-scroll">
+
+    <div id = "home">
+
+      <div id="wavybg-wrapper">
+    <!--<nav class="navbar navbar-inverse navbar-fixed-top"> -->
+    				<!-- navigation links -->
         <div id="navbar">
-        <p class="nav-text-left"> Jackie Becker</p>
-        <p class="nav-text-right">About &nbsp; &nbsp; Resume &nbsp; &nbsp; Contact</p>
+          <p class="nav-text-left"> <a class="head" href="#home">Jackie Becker</a></p>
+          <p class="nav-text-right"><a class="head" href="#about">About</a> &nbsp; &nbsp;
+                                    <a class="head" href="#resume">Resume</a> &nbsp; &nbsp;
+                                    <a class="head" href="#contact">Contact</a></p>
+        </div>
+    		<!-- </nav> -->
+
+        <canvas>Your browser does not support HTML5 canvas.</canvas>
+        <h1 class="title">Jackie Becker</h1>
+        <a class="scroll-slow" href="#about"><img class="main-button" src="images/arrow.png"></img></a>
       </div>
-		<!-- </nav> -->
-
-    <canvas>Your browser does not support HTML5 canvas.</canvas>
-    <h1 class="title">Jackie Becker</h1>
-  </div>
-
-  <p class="header">Let's just put some text here. </p>
-  <hr>
-  <p class="below">
-    After all, what's the point of all this pretty formatting <br>
-    if nothing even sits down here? Indeed, we may have to go <br>
-    on for a good long while in order to fully appreciate the <br>
-    awesomeness that is scrolling. <br>
-  </p>
-
-  <footer>
-    <div class="owner">
-      <p><a href="https://github.com/jackiebecker" class="avatar"><img src="https://avatars3.githubusercontent.com/u/13605689?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/jackiebecker">jackiebecker</a> on <a href="https://www.github.com">GitHub</a></p>
     </div>
-  </footer>
 
-  <div class="current-section">
-    <a href="https://github.com/jackiebecker/jackiebecker.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/jackiebecker/jackiebecker.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
+  <div id = "about">
+    <br><br><br>
+    <p class="header">Let's just put some text here. </p>
+    <hr>
   </div>
+    <p class="below">
+      After all, what's the point of all this pretty formatting <br>
+      if nothing even sits down here? Indeed, we may have to go <br>
+      on for a good long while in order to fully appreciate the <br>
+      awesomeness that is scrolling.
+      <div class="page-scroll">
+        <a href="#resume"><img class="button" src="images/arrow.png"></img></a>
+      </div>
+    </p>
 
+    <div id = "resume">
+      <br><br><br>
+      <p class="header">More text here! </p>
+      <hr>
+    </div>
+      <p class="below">
+        Wow, what truly beautiful formatting. I wonder who made this? <br>
+        Probably that person whose name is all over the website.<br>
+        <br><br>
+        <div class="page-scroll">
+          <a href="#contact"><img class="button" src="images/arrow.png"></img></a>
+        </div>
+      </p>
 
+      <div id = "contact">
+        <br><br>
+        <p class="header">Last section!</p>
+        <hr>
+      </div>
+        <p class="below">
+          How sad...<br>
+          Only one more button. :'(<br><br>
+          <div class="page-scroll">
+            <a href="#home"><img class="button" src="images/arrow-up.png"></img></a>
+          </div>
+          <br><br>
+        </p>
+
+    <footer>
+      <div class="owner">
+        <p><a href="https://github.com/jackiebecker" class="avatar"><img src="https://avatars3.githubusercontent.com/u/13605689?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/jackiebecker">jackiebecker</a> on <a href="https://www.github.com">GitHub</a></p>
+      </div>
+    </footer>
+
+    <div class="current-section">
+      <a href="https://github.com/jackiebecker/jackiebecker.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/jackiebecker/jackiebecker.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+      <p class="name"></p>
+    </div>
+
+  </div>
 </body>
 </html>
